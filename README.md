@@ -4,7 +4,7 @@
 
 Just link it statically using your Android.mk file:
 ```
-LOCAL_STATIC_LIBRARIES := ssl_static
+LOCAL_STATIC_LIBRARIES += ssl_static
 LOCAL_STATIC_LIBRARIES += crypto_static
 ```
 ## Troubleshooting
